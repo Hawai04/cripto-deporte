@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cripto Deporte - Noticias de Fútbol</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- encabezado -->
+    <header>
+        <div class="logo">
+            ⚽ Cripto <span>Deporte</span>
+        </div>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#noticias">Noticias</a>
+            <a href="#favoritos">Favoritos</a>
+            <a href="#partidos">Partidos</a>
+            <a href="#equipos">Equipos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+
+    <!-- contenido pricipal -->
+    <main id="inicio">
+
+        <!-- home -->
+        <section class="principal">
+
+            <div class="principal-texto">
+
+                <p class="categoria">
+                    FÚTBOL INTERNACIONAL
+                </p>
+
+                <h1>
+                    Las grandes noticias del fútbol están en Cripto Deporte
+                </h1>
+
+                <p>
+                    Conoce las últimas novedades, resultados, partidos
+                    y noticias de los principales equipos y jugadores.
+                </p>
+
+                <a href="#noticias" class="boton">
+                    Ver noticias
+                </a>
+
+            </div>
+
+            <div class="principal-imagen">
+                <div class="balon">⚽</div>
+            </div>
+
+        </section>
+
+
+        <!-- listado de noticias -->
+<section id="noticias">
+
+    <h2>Últimas noticias</h2>
+
+    <div class="noticias">
+        <!-- Las noticias se cargan dinámicamente desde noticias.json -->
+    </div>
+
+</section>
+
+<!-- detalles de noticias -->
+<div id="detalles-noticias">
+    <!-- Los detalles se cargan dinámicamente desde noticias.json -->
+</div>
+
+        <!-- favoritos -->
+<section id="favoritos" class="favoritos">
+
+    <h2>⭐ Mis favoritos</h2>
+
+    <div id="lista-favoritos" class="lista-favoritos">
+
+        <p class="sin-favoritos">
+            No tienes noticias favoritas todavía.
+        </p>
+
+    </div>
+
+</section>
+
+        <!-- partidos -->
+        <section id="partidos" class="partidos">
+
+            <h2>Próximos partidos</h2>
+
+            <div class="partidos-lista">
+
+                <div class="partido">
+
+                    <div>
+                        <strong>Equipo A</strong>
+                        <small>Próximo partido</small>
+                    </div>
+
+                    <span>VS</span>
+
+                    <div>
+                        <strong>Equipo B</strong>
+                        <small>18:00</small>
+                    </div>
+
+                </div>
+
+
+                <div class="partido">
+
+                    <div>
+                        <strong>Equipo C</strong>
+                        <small>Próximo partido</small>
+                    </div>
+
+                    <span>VS</span>
+
+                    <div>
+                        <strong>Equipo D</strong>
+                        <small>20:00</small>
+                    </div>
+
+                </div>
+
+
+                <div class="partido">
+
+                    <div>
+                        <strong>Equipo E</strong>
+                        <small>Próximo partido</small>
+                    </div>
+
+                    <span>VS</span>
+
+                    <div>
+                        <strong>Equipo F</strong>
+                        <small>21:00</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- equipos -->
+        <section id="equipos">
+
+            <h2>Equipos destacados</h2>
+
+            <div class="equipos">
+
+                <div class="equipo">
+                    <div class="escudo">⚽</div>
+                    <h3>Equipo A</h3>
+                    <p>Club de fútbol</p>
+                </div>
+
+                <div class="equipo">
+                    <div class="escudo">⚽</div>
+                    <h3>Equipo B</h3>
+                    <p>Club de fútbol</p>
+                </div>
+
+                <div class="equipo">
+                    <div class="escudo">⚽</div>
+                    <h3>Equipo C</h3>
+                    <p>Club de fútbol</p>
+                </div>
+
+                <div class="equipo">
+                    <div class="escudo">⚽</div>
+                    <h3>Equipo D</h3>
+                    <p>Club de fútbol</p>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="contacto" class="contacto">
+            <div class="contacto-contenido">
+                <h2>Contáctanos</h2>
+
+                <p>
+                    ¿Tienes alguna pregunta, sugerencia o comentario?
+                    Escríbenos y haz parte de Cripto Deporte.
+                </p>
+
+                <form class="formulario-contacto" id="formulario-contacto">
+
+    <div class="campo">
+        <label for="nombre">Nombre</label>
+
+        <input type="text"
+               id="nombre"
+               name="nombre"
+               placeholder="Ingresa tu nombre"
+               required>
+    </div>
+
+
+    <div class="campo">
+        <label for="correo">Correo electrónico</label>
+
+        <input type="email"
+               id="correo"
+               name="correo"
+               placeholder="ejemplo@correo.com"
+               required>
+    </div>
+
+
+    <div class="campo">
+        <label for="asunto">Asunto</label>
+
+        <input type="text"
+               id="asunto"
+               name="asunto"
+               placeholder="Escribe el asunto"
+               required>
+    </div>
+
+
+    <div class="campo">
+        <label for="mensaje">Mensaje</label>
+
+        <textarea id="mensaje"
+                  name="mensaje"
+                  placeholder="Escribe tu mensaje"
+                  rows="6"
+                  required></textarea>
+    </div>
+
+
+    <button type="submit">
+        Enviar mensaje
+    </button>
+
+    <p id="mensaje-formulario"></p>
+
+</form>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- pie de pagina -->
+    <footer>
+
+        <h3>
+            ⚽ Cripto Deporte
+        </h3>
+
+        <p>
+            Noticias, resultados y actualidad del mundo del fútbol.
+        </p>
+
+        <p class="copyright">
+            © 2026 Cripto Deporte - Proyecto académico
+        </p>
+
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>

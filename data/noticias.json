@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "categoria": "FÚTBOL",
+        "titulo": "Los equipos se preparan para una nueva jornada",
+        "descripcion": "Los principales clubes trabajan para afrontar sus próximos compromisos.",
+        "icono": "⚽",
+        "detalle": "Los principales clubes de fútbol continúan con su preparación para afrontar sus próximos compromisos. Los entrenamientos se enfocan en mejorar el rendimiento del equipo y llegar en las mejores condiciones a la siguiente jornada."
+    },
+    {
+        "id": 2,
+        "categoria": "TORNEOS",
+        "titulo": "La competencia entra en una etapa decisiva",
+        "descripcion": "Los resultados comienzan a definir el futuro de los equipos en el torneo.",
+        "icono": "🏆",
+        "detalle": "La competencia comienza a entrar en una etapa importante. Los resultados obtenidos durante las últimas jornadas pueden ser determinantes para definir la clasificación de los equipos."
+    },
+    {
+        "id": 3,
+        "categoria": "JUGADORES",
+        "titulo": "Las figuras que están brillando esta temporada",
+        "descripcion": "Varios jugadores se destacan por sus actuaciones durante la temporada.",
+        "icono": "👟",
+        "detalle": "Durante la temporada varios jugadores han conseguido destacarse por sus actuaciones y por la importancia que tienen dentro de sus respectivos equipos. Su rendimiento puede convertirse en un factor importante para conseguir buenos resultados."
+    }
+    ,
+{
+    "id": 4,
+    "categoria": "MUNDIAL",
+    "titulo": "Nuevas expectativas para la próxima jornada",
+    "descripcion": "Los aficionados siguen atentos a las novedades del fútbol internacional.",
+    "icono": "🌎",
+    "detalle": "Las próximas jornadas generan expectativa entre los aficionados, quienes esperan conocer las novedades y resultados de sus equipos favoritos."
+}
+]
